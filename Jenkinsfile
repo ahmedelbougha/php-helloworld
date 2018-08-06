@@ -4,7 +4,6 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'set'
-                sh 'php --version'
             }
         }
     }
